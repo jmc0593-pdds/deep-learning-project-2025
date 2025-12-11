@@ -30,23 +30,23 @@ Este proyecto implementa tres modelos de redes neuronales profundas (MLP, CNN y 
 - **Arquitectura:** Capas densas con Dropout y activación ReLU/Sigmoid.
 - **Resultados:**  
   - Accuracy: ~84%
-  - Loss final: ~0.35
+  - Loss final: ~0.35%
 
 ### 2. CNN (Convolutional Neural Network)
 - **Problema:** Clasificación de emociones en imágenes de rostros.
 - **Preprocesamiento:** Limpieza de imágenes corruptas, redimensionamiento, normalización.
 - **Arquitectura:** Capas convolucionales, MaxPooling, Dropout, Flatten, Dense con Softmax.
 - **Resultados:**  
-  - Accuracy: ~84%
-  - Loss final: ~0.35
+  - Accuracy: ~97%
+  - Loss final: ~13%
 
 ### 3. RNN (Recurrent Neural Network con LSTM)
 - **Problema:** Predicción de la categoría de clima en Seattle.
 - **Preprocesamiento:** Extracción y normalización de fecha, escalado de variables numéricas, codificación de etiquetas.
 - **Arquitectura:** Varias capas LSTM con Dropout y capa densa final.
 - **Resultados:**  
-  - Accuracy: ~84%
-  - Loss final: ~34.8
+  - Accuracy: ~0.08%
+  - Loss final: ~100%
 
 ---
 
